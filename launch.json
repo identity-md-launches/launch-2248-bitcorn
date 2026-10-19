@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "BitcornToken",
+    "name": "bitcorn",
+    "symbol": "BITCORN",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":6000,"initialMarketCapWei":"5800000000000000000000","remainderTo":"0xee2aaa315cf7ed169f93148d30d24af9318dbb66"},
+  "notes": "BitcornToken is a fixed-supply ERC-20 named bitcorn (BITCORN) with 18 decimals. Its constructor takes no arguments and mints all 1,000,000,000 tokens once to msg.sender. Transfers are untaxed. It has no owner, further minting, pause, blacklist, or upgrade functions. The pool initialPrice is provenance only; the opening price is derived from economics.initialMarketCapWei and the total supply."
+}
